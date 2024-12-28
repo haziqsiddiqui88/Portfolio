@@ -8,10 +8,17 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      fontFamily:{
+        playwrite: ["Ysabeau SC"]
+ },
+ container: {
+  center: true,
+  padding: "15px",
+},
+colors: {
+ accent: "#08E9SE",
+
+},
     },
   },
   plugins: [],
